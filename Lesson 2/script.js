@@ -1,69 +1,57 @@
-/*
-Data types
-*/
+// Different Types of Structures/Organization
 
-// Data Types
-// ---------------------
-// var name = "Jane";                      // string
-// var age = 18;                           // number 
-// var truth = false;                      // boolean
+// Variables
+var number = 123;
+var string = "123";
+var boolean = true;
+var boolean_string = "true";
 
-// Structures
-// ---------------------
-// var sheets = ["HTML","CSS","JS",1,2,3];       // array
-// var name = {first:"Jane", last:"Doe", age:1};  // object
+console.log(typeof(number));
+console.log(typeof(string));
+console.log(typeof(boolean));
+console.log(typeof(boolean_string));
 
-// Definitions
-// ---------------------
-// var a = null;                           // value null
-// var a; typeof a;                        // undefined
+// Strings are 'strung' together:
+var strings_numbers_chars = "1a%c2B&xh"
+console.log(string.length);
+console.log(boolean_string.length);
+console.log(strings_numbers_chars.length);
 
+// How strings work in JS
+var number_string_1 = "3";
+var number_string_2 = "2";
 
+console.log(number_string_1 + number_string_2); // Guess = 5; Answer = 32;
 
-// Declarations
+var number_1 = 3;
+var number_2 = 2;
 
-// var = "global"
-var firstName = "Cesar";
-// let = "local"
-let lastName = "Flores";
-// const = "cannot change"
-const birthday = "June 3, 1988";
+console.log(number_1 + number_2); // Guess = 5; Answer = 5;
 
-// Print firstName
-// console.log(firstName);
-// console.log("Cesar");
+var number_string_1 = "3";
+var number_string_2 = "2";
 
-// Boolean
-var adult = true;
-console.log("Is Cesar an adult: " + adult);
+console.log(Number(number_string_1) + Number(number_string_2)); // Guess = 5; Answer = 5;
+// Example of NaN:
+console.log(Number("Cesar"));
+console.log(Number("five"));
 
-// If Statements
-Cesar = 32;
-Rosie = 1.2;
-function isLegal(customer) {
-    if(customer<21) {
-        console.log("Sorry, I can't sell you any alcohol.")
-    }
-    else {
-        console.log("Yes, I can sell you alcohol.")
-    }
-} 
+// This is called concatanation.
+var first_name = "Cesar";
+var last_name = "Flores";
+ // The wasy concatenation works is that it links strings together:
+ console.log(first_name + " " + last_name + " is a hacker!"); // This will concatenate(link) the strings together
 
-isLegal(Cesar);
-isLegal(Rosie);
+ // Utilizing a string's value for a boolean test case.
+var age = "";
 
-// Function that greets each user
-let users = ["Cesar", "Julio", "Cynthia", "Maggie"];
+// I asked the user their age:
+// This was their response:
+age1 = "18";
+age2 = "22";
 
-function greet(array) {
-    for (let i=0; i<array.length; i++) {
-        let name = array[i];
-        console.log("Hello " + name + "!")
-    }
-}
-greet(users);
+console.log(age1 > "21");
+console.log(age1 > 21);
 
-
-// Undefined
-let undefinedExample;
-console.log(undefinedExample);
+console.log(age2 > "21");
+console.log(age2 > 21);
