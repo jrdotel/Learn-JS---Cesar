@@ -10,8 +10,9 @@ Data types
 
 // Structures
 // ---------------------
-// var sheets = ["HTML","CSS","JS",1,2,3];       // array
-// var name = {first:"Jane", last:"Doe", age:1};  // object
+// var age = 32                                    //variable
+// var sheets = ["HTML","CSS","JS",1,2,3];         // array
+// var name = {first:"Jane", last:"Doe", age:1};   // object
 
 // Definitions
 // ---------------------
@@ -20,7 +21,9 @@ Data types
 
 
 
-// Declarations
+/*
+Declarations
+*/
 
 // var = "global"
 var firstName = "Cesar";
@@ -30,8 +33,8 @@ let lastName = "Flores";
 const birthday = "June 3, 1988";
 
 // Print firstName
-// console.log(firstName);
-// console.log("Cesar");
+console.log(firstName);
+console.log("Cesar");
 
 // Boolean
 var adult = true;
@@ -40,6 +43,7 @@ console.log("Is Cesar an adult: " + adult);
 // If Statements
 Cesar = 32;
 Rosie = 1.2;
+
 function isLegal(customer) {
     if(customer<21) {
         console.log("Sorry, I can't sell you any alcohol.")
@@ -67,3 +71,6 @@ greet(users);
 // Undefined
 let undefinedExample;
 console.log(undefinedExample);
+
+// Cesar
+
