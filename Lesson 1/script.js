@@ -7,6 +7,7 @@ Data types
 // var name = "Jane";                      // string
 // var age = 18;                           // number 
 // var truth = false;                      // boolean
+// var 18 = "string";                      // typeof example
 
 // Structures
 // ---------------------

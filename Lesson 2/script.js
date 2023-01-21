@@ -1,4 +1,4 @@
-// Different Types of Structures/Organization
+// Different Types of Structures/Organization -- Part 1
 
 // Variables
 var number = 123;
@@ -10,6 +10,19 @@ console.log(typeof(number));
 console.log(typeof(string));
 console.log(typeof(boolean));
 console.log(typeof(boolean_string));
+
+// Declarations
+let var1 = "value";
+var var2 = "value";
+const var3 = "value";
+
+var1 = "different value";
+var2 = "different value";
+// var3 = "different value";  ---> Cannot change a constant variable. It will break your code.
+
+console.log(var1);
+console.log(var2);
+console.log(var3);
 
 // Strings are 'strung' together:
 var strings_numbers_chars = "1a%c2B&xh"
